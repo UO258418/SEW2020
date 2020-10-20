@@ -119,6 +119,8 @@ li a:hover:not(.active) {
 .sideTable th, .sideTable td {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
     text-align: left;
 }
 
@@ -135,4 +137,18 @@ li a:hover:not(.active) {
 /* 1 */
 table, th, td{
     border: 1px solid black;
+}
+
+/* 1 */
+table {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* 1 */
+video, audio {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 40%;
 }
