@@ -67,7 +67,7 @@ dt, th {
 }
 
 /* 1 */
-dd, td {
+dd, td, li {
     font-size: 1.1em;
 }
 
@@ -106,12 +106,28 @@ li a:hover:not(.active) {
     background-color: black;
 }
 
-/* 11 */
-.sideContainer table, th ,td {
+/* 1 */
+.sideTable {
+    border-collapse: collapse;
+    float: right;
+    margin-left: 1em;
+    max-width: 25%;
     border: 1px solid black;
 }
 
 /* 11 */
-.sideContainer table {
-    border-collapse: collapse;
+.sideTable th, .sideTable td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: left;
+}
+
+/* 11 */
+.sideTable th, .sideTable td {
+    font-size: 1em;
+}
+
+/* 20 */
+.sideTable .imgContainer{
+    text-align: center;
 }
