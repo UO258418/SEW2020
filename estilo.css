@@ -131,3 +131,8 @@ li a:hover:not(.active) {
 .sideTable .imgContainer{
     text-align: center;
 }
+
+/* 1 */
+table, th, td{
+    border: 1px solid black;
+}
